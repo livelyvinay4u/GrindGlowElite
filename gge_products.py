@@ -6,19 +6,29 @@ apply_custom_theme()
 
 def display_products(product_list):    
     for product in product_list:
-        url = product["affiliate_link"]
+        url = product["affiliate_key"]
         image_url = product["image_url"]
+
+        # Fetch affiliate URL securely
+        url = st.secrets.get("affiliate_links", {}).get(affiliate_key)
+
+        # Skip product if secret is missing
+        if not url:
+            st.warning(f"Affiliate link missing for {product.get('name')}")
+            continue
 
         with st.expander(product["name"], expanded=True):
             col_img, col_btn = st.columns([1, 4])  # Adjust ratio as needed
+            
             with col_img:
                 st.image(image_url, width=180)
+            
             with col_btn: 
                 st.markdown(" ")  # small spacing
-                #st.markdown(" ")  # small spacing 
+                 
                 button_html = f"""  
                     <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                        <a href="{url}" target="_blank" style="text-decoration: none;">
+                        <a href="{url}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                             <button style="
                                 background-color: #FF9900;
                                 color: white;
