@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from utils import apply_custom_theme
 
-apply_custom_font()
+apply_custom_theme()
 
 def display_products(product_list):    
     for product in product_list:

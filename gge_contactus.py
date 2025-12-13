@@ -3,7 +3,7 @@ from utils import apply_custom_theme
 from email.message import EmailMessage
 import smtplib
 
-apply_custom_font() 
+apply_custom_theme() 
 
 def contactus_navigation():
     # Display contact email

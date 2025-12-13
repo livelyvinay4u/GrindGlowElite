@@ -1,7 +1,7 @@
 import streamlit as st # type: ignore
 from utils import apply_custom_theme
 
-apply_custom_font()
+apply_custom_theme()
 
 def home_navigation():
     #st.markdown("<h1 style='text-align: center;'>🌟 Welcome to <span style='color:#FF6F61;'>GrindGlowElite</span> 🌟</h1>", unsafe_allow_html=True)
