@@ -6,18 +6,22 @@ apply_custom_theme()
 
 def display_products(product_list):    
     for product in product_list:
-        url = product["affiliate_key"]
-        image_url = product["image_url"]
+        affiliate_key = product.get("affiliate_key", None)
+        #url = product["affiliate_key"]
+        image_url = product.get("image_url")
+        #image_url = product["image_url"]
+        product_name = product.get("name", "Unnamed Product")
 
-        # Fetch affiliate URL securely
-        url = st.secrets.get("affiliate_links", {}).get(affiliate_key)
+        # Safely fetch affiliate URL
+        affiliate_links = st.secrets.get("affiliate_links", {})
+        url = affiliate_links.get(affiliate_key)
 
-        # Skip product if secret is missing
-        if not url:
-            st.warning(f"Affiliate link missing for {product.get('name')}")
+        # If key or URL missing, skip rendering button
+        if not affiliate_key or not url:
+            st.info(f"{product_name} is temporarily unavailable.")
             continue
 
-        with st.expander(product["name"], expanded=True):
+        with st.expander(product_name, expanded=True):
             col_img, col_btn = st.columns([1, 4])  # Adjust ratio as needed
             
             with col_img:
