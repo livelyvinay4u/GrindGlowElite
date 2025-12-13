@@ -1,5 +1,5 @@
 import streamlit as st # type: ignore
-from utils import apply_custom_font
+from utils import apply_custom_theme
 
 apply_custom_font()
 

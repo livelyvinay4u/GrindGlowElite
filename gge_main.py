@@ -25,7 +25,7 @@ from gge_products import products_navigation
 from gge_contactus import contactus_navigation
 from gge_blogs import blogs_navigation
 from email.message import EmailMessage
-from utils import apply_custom_font
+from utils import apply_custom_theme
 
 apply_custom_font()
 
