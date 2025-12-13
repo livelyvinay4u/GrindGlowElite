@@ -1,6 +1,7 @@
 import streamlit as st  # type: ignore
 from PIL import Image # type: ignore
 from io import BytesIO
+from pathlib import Path
 
 # Set page config
 
@@ -82,7 +83,10 @@ def get_image_base64(image_path):
     return img_base64
 
 # Get base64 string
-img_base64 = get_image_base64("Photos\GGE_Logo.jpg")
+
+img_path = Path("Photos") / "GGE_Logo.jpg"
+img_base64 = get_image_base64(img_path)
+#img_base64 = get_image_base64("Photos\GGE_Logo.jpg")
 
 # Properly formatted HTML with f-string
 html_content = f"""
