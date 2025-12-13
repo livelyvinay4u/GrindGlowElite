@@ -1,0 +1,102 @@
+{
+  "Digital Products": [
+    {
+      "name": "TrueSelf360",
+      "affiliate_link": "TrueSelf360_link",
+      "image_url": "Photos/TrueSelf360.png"
+    },
+    {
+      "name": "The A.I Money Machine",
+      "affiliate_link": "AI_Money_Machine_link",
+      "image_url": "Photos/AI_Money_Machine.png"
+    }
+  ],
+
+  "Professional Services": [
+    {
+      "name": "FAMM Future",
+      "affiliate_link": "FAMM_Future_link",
+      "image_url": "Photos/FAMM_Future.png"
+    },
+    {
+      "name": "Premium Executive Support",
+      "affiliate_link": "Premium_Executive_Support_link",
+      "image_url": "Photos/FAMM_Future.png"
+    },
+    {
+      "name": "Standard Executive Support",
+      "affiliate_link": "Standard_Executive_Support_link",
+      "image_url": "Photos/FAMM_Future.png"
+    }
+  ],
+  
+  "Digital Marketing": [
+    {
+      "name": "Rapid Affiliate Profits Program",
+      "affiliate_link": "Rapid_Affiliate_Profits_link",
+      "image_url": "Photos/Rapid_Affiliate_Profits.png"
+    },
+    {
+      "name": "ClickFunnels - Free Trials",
+      "affiliate_link": "ClickFunnels_Trial_link",
+      "image_url": "Photos/ClickFunnels_Free_Trial.jpg"
+    },
+    {
+      "name": "ClickFunnels - One Funnel Away Challenge",
+      "affiliate_link": "ClickFunnels_Challenge_link",
+      "image_url": "Photos/ClickFunnels_Challenge.png"
+    },
+    {
+      "name": "ClickFunnels - PLR Funnel",
+      "affiliate_link": "ClickFunnels_PLR_Funnel_link",
+      "image_url": "Photos/ClickFunnels_PLR_Funnel.jpg"
+    },
+    {
+      "name": "ClickFunnels - Im All In - Funnel Builder Secrets Offer",
+      "affiliate_link": "ClickFunnels_Secret_Offer_link",
+      "image_url": "Photos/ClickFunnels_Secret_Offer.png"
+    }
+  ],
+
+  "Digital Strategy": [
+    {
+      "name": "Instagram Audit 1 on 1 call",
+      "affiliate_link": "Instagram_Audit_link",
+      "image_url": "Photos/Instagram_Audit.png"
+    },
+    {
+      "name": "TV Agency Ownership",
+      "affiliate_link": "TV_Agency_Ownership_link",
+      "image_url": "Photos/TV_Channel_Ownership.jpg"
+    }
+  ],
+  
+  "Health & Wellness": [
+    {
+      "name": "CMindfulness & Stress Management",
+      "affiliate_link": "Mindfulness_Stress_Management_link",
+      "image_url": "Photos/Mindfulness_Stress_Management.png"
+    }
+  ],
+  "Beauty": [
+    {
+      "name": "Switzerland",
+      "affiliate_link": "Switzerland_link",
+      "image_url": "https://m.media-amazon.com/images/I/911x1AergcL._SY385_.jpg"
+    }
+  ],
+  "Books": [
+    {
+      "name": "Switzerland1",
+      "affiliate_link": "Switzerland1_link",
+      "image_url": "https://m.media-amazon.com/images/I/911x1AergcL._SY385_.jpg"
+    }
+  ],
+  "Holidays": [
+    {
+      "name": "Switzerland2",
+      "affiliate_link": "Switzerland2_link",
+      "image_url": "https://m.media-amazon.com/images/I/911x1AergcL._SY385_.jpg"
+    }
+  ] 
+}

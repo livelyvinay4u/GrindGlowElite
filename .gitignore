@@ -211,3 +211,4 @@ products.json
 requirements_new.txt
 Git CLI - Vinay.txt
 utils_old.py
+.streamlit/secrets.toml
