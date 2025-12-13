@@ -48,7 +48,7 @@ def display_products(product_list):
 # Main Streamlit function
 def products_navigation():
     def load_products():
-        with open("products.json", "r") as f:
+        with open("gge_affiliate_products", "r") as f:
             return json.load(f)
 
     products = load_products()
